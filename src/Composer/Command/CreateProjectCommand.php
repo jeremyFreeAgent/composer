@@ -36,7 +36,7 @@ class CreateProjectCommand extends Command
     {
         $this
             ->setName('create-project')
-            ->setDescription('Create new project from a package into given directory.')
+            ->setDescription('Create new project from a package into given directory')
             ->setDefinition(array(
                 new InputArgument('package', InputArgument::REQUIRED, 'Package name to be installed'),
                 new InputArgument('directory', InputArgument::OPTIONAL, 'Directory where the files should be created'),

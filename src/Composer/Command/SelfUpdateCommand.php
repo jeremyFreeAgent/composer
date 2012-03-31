@@ -26,7 +26,7 @@ class SelfUpdateCommand extends Command
     {
         $this
             ->setName('self-update')
-            ->setDescription('Updates composer.phar to the latest version.')
+            ->setDescription('Updates composer.phar to the latest version')
             ->setHelp(<<<EOT
 The <info>self-update</info> command checks getcomposer.org for newer
 versions of composer and if found, installs the latest.
